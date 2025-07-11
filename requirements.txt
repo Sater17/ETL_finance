@@ -1,0 +1,6 @@
+dagster
+dagster-webserver
+yfinance
+polars
+duckdb
+scikit-learn

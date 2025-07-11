@@ -1,0 +1,44 @@
+[0m11:25:25.452107 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002993FE670E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002993DBF8690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029941033D90>]}
+
+
+============================== 11:25:25.456716 | a64cfda1-8262-4048-9563-ff5ee37e1c0e ==============================
+[0m11:25:25.456716 [info ] [MainThread]: Running with dbt=1.10.3
+[0m11:25:25.457762 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\SATER\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt init finance_dbt', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:25:25.481108 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\SATER\.dbt
+[0m11:25:25.483410 [debug] [MainThread]: Starter project path: C:\Users\SATER\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m11:25:25.503611 [info ] [MainThread]: 
+Your new dbt project "finance_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:25:25.504459 [info ] [MainThread]: Setting up your profile.
+[0m11:25:58.017993 [info ] [MainThread]: Profile finance_dbt written to C:\Users\SATER\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m11:25:58.019251 [debug] [MainThread]: Command `dbt init` succeeded at 11:25:58.019077 after 32.68 seconds
+[0m11:25:58.019599 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029940F4FE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299421B9910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000299420E8E20>]}
+[0m11:25:58.019906 [debug] [MainThread]: Flushing usage events
+[0m11:25:59.248016 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:25:40.692496 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C07D5541A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C000157ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C000157B10>]}
+
+
+============================== 23:25:40.697843 | 251f470e-1dbf-426b-bd27-7f5c5dc0a064 ==============================
+[0m23:25:40.697843 [info ] [MainThread]: Running with dbt=1.7.19
+[0m23:25:40.698921 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\SATER\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m23:25:40.699442 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\SATER\Projects\tmp\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m23:25:40.700325 [debug] [MainThread]: Command `dbt run` failed at 23:25:40.700170 after 0.15 seconds
+[0m23:25:40.700650 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C07FEAFE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0001BCEF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C0001CCC00>]}
+[0m23:25:40.700986 [debug] [MainThread]: Flushing usage events

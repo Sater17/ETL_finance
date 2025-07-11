@@ -1,0 +1,1 @@
+{"_invocation_id": "f460226f-e0bd-4ea0-97e7-cd27e057be72", "linked": {"0": {"name": "model.finance_dbt.dim_symbols", "type": "model", "succ": [2]}, "1": {"name": "model.finance_dbt.stg_stock_prices", "type": "model", "succ": [0, 2]}, "2": {"name": "model.finance_dbt.mart_prices", "type": "model"}}}
